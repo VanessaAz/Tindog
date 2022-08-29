@@ -9,7 +9,7 @@ render()
 
 function render(){
     document.getElementById('profile').innerHTML = 
-        currentIndex < 3 ? 
+        currentIndex < dogs.length ? 
             newDog.getDogHtml() : 
             endMessage()
 }
